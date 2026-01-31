@@ -1,4 +1,4 @@
-package factorypattern;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +21,12 @@ public class Main {
 
       //call draw method of square
       shape3.draw();
+
+      //get an object of Triangle and call its draw method.
+      Shape shape4 = shapeFactory.getShape("TRIANGLE");
+
+      //call draw method of triangle
+      shape4.draw();
    }
 
 }

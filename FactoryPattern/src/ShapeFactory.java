@@ -1,4 +1,4 @@
-package factorypattern;
+
 
 public class ShapeFactory {
 
